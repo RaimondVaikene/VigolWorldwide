@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/VigolWorldwide/static/css/main.ae20320a.css",
+    "main.js": "/VigolWorldwide/static/js/main.fde6b1c2.js",
+    "static/media/main-image.png": "/VigolWorldwide/static/media/main-image.5c8002a3534e369d066d.png",
+    "index.html": "/VigolWorldwide/index.html",
+    "main.ae20320a.css.map": "/VigolWorldwide/static/css/main.ae20320a.css.map",
+    "main.fde6b1c2.js.map": "/VigolWorldwide/static/js/main.fde6b1c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae20320a.css",
+    "static/js/main.fde6b1c2.js"
+  ]
+}
