@@ -1,0 +1,8 @@
+19:10:16.619 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+19:10:16.778 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+19:10:23.529 [NamespaceSystem-akka.actor.default-dispatcher-6] INFO com.firebase.core.namespace.NamespaceActor - vigol-a20be-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 94ms, init: 0ms
+19:10:23.610 [NamespaceSystem-blocking-namespace-operation-dispatcher-7] INFO com.firebase.core.namespace.StateManager - Namespace vigol-a20be-default-rtdb status Active to Active
+20:41:30.261 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+20:41:30.269 [NamespaceSystem-akka.actor.default-dispatcher-12] INFO com.firebase.core.namespace.Terminator$Terminator - 1 actors left to terminate: vigol-a20be-default-rtdb
+20:41:30.274 [NamespaceSystem-akka.actor.default-dispatcher-14] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for vigol-a20be-default-rtdb
+20:41:30.277 [Thread-0] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.

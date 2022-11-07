@@ -1,0 +1,359 @@
+* {
+  padding: 0;
+}
+
+/* Navigation */
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+  
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+/* Home Page */
+.container-main {
+  display: flex;
+align-items: center;
+justify-content: center;
+height: fit-content;
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+ margin-top: 3em;
+  width: 300px;
+
+}
+.newsletter {
+display: flex;
+justify-content: center;
+margin-top: 5em;
+font-size: large;
+
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.email > input {
+  border: none;
+  border-bottom: 1px solid black;
+
+}
+
+.email > button {
+  padding: 5px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: x-small;
+  font-weight: 400;
+}
+
+/* Registration */
+
+#register-form {
+  width: 250px;
+  margin: 0vh auto;
+  padding: 50px;
+  font-size: 12px;
+}
+
+#register-form h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: large;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+#register-form input {
+  text-align: center;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control input {
+  border: 2px solid #d1d1d1;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+#register-form button {
+  padding: 10px;
+  margin-top: 30px;
+  width: 100%;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  font-size: large;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 0.5em;
+}
+
+/* Login */
+
+.login {
+  width: 300px;
+  padding: 20px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.login h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: large;
+  margin-bottom: 2em;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-btn {
+  padding: 10px;
+  margin-top: 30px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  font-size: medium;
+  cursor: pointer;
+  margin-top: 3em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+
+#no-account {
+  margin-top: 3em;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 3em;
+}
+
+.login-register-btn{
+  margin-top: 2em;
+  padding: 10px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  font-size: medium;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.login-content input {
+padding: 10px;
+border: 2px solid #d1d1d1;
+font-size: 12px;
+}
+
+.login-content #email {
+  margin-bottom: 1em;
+}
+
+/* Shop */
+
+.shop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.shop-row {
+display: flex;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+/* Product */
+
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+
+}
+
+.product > img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.product-info {
+  margin-top: 5px;
+} 
+
+.product > button {
+  padding: 10px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  font-size: small;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* Bag */
+
+.checkout  {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  height: max-content;
+}
+
+.checkout-title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  margin-top: 2em;
+}
+
+.subtotal > p {
+  text-align: center;
+}
+
+.subtotal > button {
+  padding: 2px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-size: small;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* Checkout Products */
+
+.checkout-product {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.checkout-product > img {
+  object-fit: contain;
+  width: 150px;
+  height: 150px;
+}
+
+.checkout-info {
+  padding-left: 10px;
+}
+
+.checkout-info > button {
+  padding: 2px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-size: small;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.checkoutProduct-title {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* Payment */
+
+.payment-container > h1 {
+text-align: center;
+padding: 10px;
+font-weight: 400;
+border-bottom: 1px solid lightgray;
+}
+
+.payment-container > h1 a {
+  text-decoration: none;
+}
+
+.payment-section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment-title {
+  flex: 0.2;
+}
+
+.payment-address {
+margin-left: 5em;
+}
+
+.payment-items {
+  margin-left: 3em;
+}
+
+.payment-details {
+ margin-left: 3em;
+  width: 100%;
+}
+
+.about-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
