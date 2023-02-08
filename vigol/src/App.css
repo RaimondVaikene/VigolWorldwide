@@ -113,13 +113,11 @@ font-size: large;
 /* Login */
 
 .login {
-  width: 300px;
-  padding: 20px;
-  position: absolute;
-  top: 10%;
-  left: 10%;
+  display: grid;
+  justify-content: center;
   text-align: center;
   font-size: 15px;
+  margin-top: 5%;
 }
 
 .login h1 {
@@ -157,7 +155,7 @@ font-size: large;
 }
 
 .login-register-btn{
-  margin-top: 2em;
+
   padding: 10px;
   color: white;
   background-color: rgb(0, 0, 0);
